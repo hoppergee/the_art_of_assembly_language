@@ -1,0 +1,15 @@
+program IfElse;
+
+#include( "stdlib.hhf" )
+
+begin IfElse;
+
+if( ch = 'a' ) then
+  stdout.put( "You selected the 'a' menu item", nl );
+elseif( ch = 'b' ) then
+  stdout.put( "You selected the 'b' menu item", nl );
+else
+  stdout.put( "Error: illegal menu item selection", nl );
+endif;
+
+end IfElse;
